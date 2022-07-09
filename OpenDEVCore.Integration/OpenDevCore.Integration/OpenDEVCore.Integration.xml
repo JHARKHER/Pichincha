@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OpenDEVCore.Integration</name>
+    </assembly>
+    <members>
+        <member name="M:OpenDEVCore.Integration.Controllers.IntegrationController.InsertarMovimiento(OpenDEVCore.Integration.Dto.DtoMovimiento)">
+            <summary>
+            Insertar un Movimiento Financiero
+            </summary>
+            <param name="dtoMovimiento"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

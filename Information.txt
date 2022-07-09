@@ -1,0 +1,76 @@
+PICHINCHA
+==========
+Redis
+* DBRedis is password
+zOjN0oWLwyUzCJmjfsCE8XbQu49IQhgx
+volatile-lru (-Iru)
+* Redis Software
+Port
+6379
+
+
+//react
+*-- DEMOSTRABLE JSON
+https://codesandbox.io/s/react-context-usestate-501oq?file=/src/index.tsx:380-516
+<div>{JSON.stringify(state, null, 2)}</div>
+
+ <div className="form-control">
+            <label htmlFor="text2">Cuenta Destino</label>
+            <input type="text" value={text2} onChange={(e) => setText(e.target.value)} placeholder="Cuenta Destino..." />
+          </div>
+		  
+		  CREATE TABLE Movimiento (
+	IdMovimiento INT identity(1,1) ,
+	CuentaOrigen INT,
+	Beneficiario VARCHAR(32),
+	CuentaDestino INT,
+	Concepto VARCHAR(64),
+	Monto DECIMAL,
+	EmailDestino VARCHAR(32)
+);
+
+
+
+//antiguo
+"redis": {
+    "connectionString": "redis",
+    "instance": "base-api"
+  },
+
+
+  "redis": {
+    "abortConnect": true,
+    "password": "zOjN0oWLwyUzCJmjfsCE8XbQu49IQhgx",
+    "allowAdmin": true,
+    "ssl": true,
+    "connectTimeout": 5000,
+    "syncTimeout": 5000,
+    "connectRetry": 3,
+    "defaultDatabase": 0,
+    "endPoints": [
+      {
+        "host": "redis-16057.c228.us-central1-1.gce.cloud.redislabs.com",
+        "port": "16057"
+      }
+    ]
+  },
+  
+  Microsoft.Extensions.Caching.Redis
+  restEase
+  
+  
+  SSID:	CNT-OLEAS
+Protocolo:	Wi-Fi 4 (802.11n)
+Tipo de seguridad:	WPA2-Personal
+Banda de red:	2,4 GHz
+Canal de red	3
+Dirección IPv6:	2800:370:c9:1970:2d:2474:bd6f:9fa4
+Dirección IPv6 del vínculo local:	fe80::2d:2474:bd6f:9fa4%10
+Servidores DNS IPv6:	fe80::1%10
+Dirección IPv4:	192.168.1.5
+Servidores DNS IPv4:	200.107.10.105
+181.113.126.100
+Fabricante:	Qualcomm Atheros Communications Inc.
+Descripción:	Qualcomm Atheros AR9485WB-EG Wireless Network Adapter
+Versión del controlador:	3.0.2.201
+Dirección física (MAC):	B8-EE-65-61-69-40

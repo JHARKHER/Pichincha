@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "Base": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "nativeDebugging": true,
+      "applicationUrl": "http://0.0.0.0:5010/"
+    }
+  }
+}

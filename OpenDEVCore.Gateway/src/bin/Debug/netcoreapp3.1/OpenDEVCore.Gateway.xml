@@ -1,0 +1,133 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OpenDEVCore.Gateway</name>
+    </assembly>
+    <members>
+        <member name="T:OpenDEVCore.Gateway.Controllers.BaseController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OpenDEVCore.Gateway.Controllers.BaseController.#ctor(Core.RabbitMq.IBusPublisher)">
+            <summary>
+            
+            </summary>
+            <param name="busPublisher"></param>
+        </member>
+        <member name="M:OpenDEVCore.Gateway.Controllers.BaseController.Single``1(``0,System.Func{``0,System.Boolean})">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="model"></param>
+            <param name="criteria"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenDEVCore.Gateway.Controllers.BaseController.Collection``1(Core.Types.PagedResult{``0},System.Func{Core.Types.PagedResult{``0},System.Boolean})">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="pagedResult"></param>
+            <param name="criteria"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenDEVCore.Gateway.Controllers.BaseController.SendAsync``1(``0,System.Nullable{System.Guid},System.String)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="command"></param>
+            <param name="resourceId"></param>
+            <param name="resource"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenDEVCore.Gateway.Controllers.BaseController.Accepted(Core.RabbitMq.ICorrelationContext)">
+            <summary>
+            
+            </summary>
+            <param name="context"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenDEVCore.Gateway.Controllers.BaseController.GetContext``1(System.Nullable{System.Guid},System.String)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="resourceId"></param>
+            <param name="resource"></param>
+            <returns></returns>
+        </member>
+        <member name="P:OpenDEVCore.Gateway.Controllers.BaseController.IsAdmin">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OpenDEVCore.Gateway.Controllers.BaseController.UserId">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:OpenDEVCore.Gateway.Controllers.BaseController.Culture">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OpenDEVCore.Gateway.Controllers.GatewayController.InsertarMovimiento(OpenDEVCore.Integration.Dto.DtoMovimiento)">
+            <summary>
+            Posición Consolidada - Validar Pin y logín de usuarios
+            </summary>
+            <param name="oneDtoConsolidatedPositionDB"></param>
+            <returns></returns>
+        </member>
+        <member name="T:OpenDEVCore.Gateway.Program">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="M:OpenDEVCore.Gateway.Program.Main(System.String[])">
+            <summary>
+            
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="T:OpenDEVCore.Gateway.Startup">
+            <summary>
+            StartUp de ApiWateGay
+            </summary>
+        </member>
+        <member name="P:OpenDEVCore.Gateway.Startup.Container">
+            <summary>
+            Container
+            </summary>
+        </member>
+        <member name="P:OpenDEVCore.Gateway.Startup.Configuration">
+            <summary>
+            Interface IConfiguration
+            </summary>
+        </member>
+        <member name="M:OpenDEVCore.Gateway.Startup.#ctor(Microsoft.Extensions.Configuration.IConfiguration)">
+            <summary>
+            Startup
+            </summary>
+            <param name="configuration"></param>
+        </member>
+        <member name="M:OpenDEVCore.Gateway.Startup.ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            ConfigureServices
+            </summary>
+            <param name="services"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenDEVCore.Gateway.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,Microsoft.Extensions.Hosting.IHostApplicationLifetime,Core.IStartupInitializer)">
+            <summary>
+            Configure
+            </summary>
+            <param name="app"></param>
+            <param name="env"></param>
+            <param name="applicationLifetime"></param>
+            <param name="startupInitializer"></param>
+        </member>
+    </members>
+</doc>

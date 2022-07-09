@@ -1,0 +1,8 @@
+C:\Users\INTIWARDAL\Documents\Procesos\Pichincha\OpenDEVCore.Integration.Dto\OpenDEVCore.Integration.Dto\bin\Debug\netcoreapp3.1\OpenDEVCore.Integration.Dto.deps.json
+C:\Users\INTIWARDAL\Documents\Procesos\Pichincha\OpenDEVCore.Integration.Dto\OpenDEVCore.Integration.Dto\bin\Debug\netcoreapp3.1\OpenDEVCore.Integration.Dto.dll
+C:\Users\INTIWARDAL\Documents\Procesos\Pichincha\OpenDEVCore.Integration.Dto\OpenDEVCore.Integration.Dto\bin\Debug\netcoreapp3.1\OpenDEVCore.Integration.Dto.pdb
+C:\Users\INTIWARDAL\Documents\Procesos\Pichincha\OpenDEVCore.Integration.Dto\OpenDEVCore.Integration.Dto\obj\Debug\netcoreapp3.1\OpenDEVCore.Integration.Dto.AssemblyInfoInputs.cache
+C:\Users\INTIWARDAL\Documents\Procesos\Pichincha\OpenDEVCore.Integration.Dto\OpenDEVCore.Integration.Dto\obj\Debug\netcoreapp3.1\OpenDEVCore.Integration.Dto.AssemblyInfo.cs
+C:\Users\INTIWARDAL\Documents\Procesos\Pichincha\OpenDEVCore.Integration.Dto\OpenDEVCore.Integration.Dto\obj\Debug\netcoreapp3.1\OpenDEVCore.Integration.Dto.csproj.CoreCompileInputs.cache
+C:\Users\INTIWARDAL\Documents\Procesos\Pichincha\OpenDEVCore.Integration.Dto\OpenDEVCore.Integration.Dto\obj\Debug\netcoreapp3.1\OpenDEVCore.Integration.Dto.dll
+C:\Users\INTIWARDAL\Documents\Procesos\Pichincha\OpenDEVCore.Integration.Dto\OpenDEVCore.Integration.Dto\obj\Debug\netcoreapp3.1\OpenDEVCore.Integration.Dto.pdb

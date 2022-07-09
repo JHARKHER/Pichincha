@@ -1,0 +1,30 @@
+//CONSTANTES PARA EL ARBOL DE RESPUESTA
+export const NEGOCIACION = "NEGOCUOTA";
+export const PROSPECCION = "PROSPECCION";
+export const AGENDAMIENTO = "AGENDA";
+
+//CONSTANTES PARA LA ADMINISTRACION DE CAMPANIA
+export const VENTASESPECIAL = "VENTASESPECIAL";
+export const VENTASNOESPECIAL = "VENTASNOESPECIAL";
+export const ENCUESTA = "ENCUESTA";
+export const OTROS = "OTROS";
+
+//CONSTANTES PARA EL ARBOL DE RESPUESTA AGENDAMIENTO
+export const CONTACTO_DIRECTO = "CONDIR";
+export const NO_CONTACTO = "NOCONTACTO";
+export const CONTACTO_INDIRECTO = "CONIND";
+
+//CONSTANTES PARA LA SUBIDA DE ARCHIVOS EN LA ADMINISTRAACION DE CAMPANIA
+export const ES_TELEFONO = "esTelefono";
+export const ES_DIRECCION = "esDireccion";
+export const ES_PRODUCTO = "esProducto";
+export const ES_SUB_PRODUCTO = "esSubProducto";
+export const ES_CONTROL = "esControl";
+export const ES_MONTO = "esMonto";
+export const ES_TASA = "esTasa";
+export const ES_PLAZO = "esPlazo";
+
+export const TIPO_IDENTIFICACION = "TIPOIDENTIFICACION";
+export const IDENTIFICACION = "IDENTIFICACION";
+export const NOMBRE_CLIENTE = "NOMBRECLIENTE";
+
